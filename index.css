@@ -1,0 +1,90 @@
+body {
+  background: url("./images1/black.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-5 {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.1em black;
+}
+h1 {
+  color: goldenrod;
+  text-shadow: 0.1em 0.1em 0.1em black;
+  font-size: 300%;
+  margin: 2px;
+}
+h3 {
+  font-size: 210%;
+  color: antiquewhite;
+  text-shadow: 0.1em 0.1em 0.1em black;
+  margin: 5px;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  color: antiquewhite;
+  display: flex;
+  border: 4px solid #133d09;
+  border-style: ridge;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url("./images1/cassino.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flex-blackjack-row-1 div {
+  padding: 1px;
+  flex: 1;
+  text-align: center;
+  height: 385px;
+  font-size: larger;
+  border: 3px solid rgb(7, 78, 7);
+  border-style: ridge;
+}
+.flex-blackjack-row-1 img {
+  width: 20%;
+  padding: 10px;
+}
+.flex-blackjack-row-1 img:hover {
+  box-shadow: rgb(36, 165, 11) 0px 20px 30px -10px;
+}
+.flex-blackjack-row-2 div {
+  padding-top: 12px;
+  flex: 1;
+  text-align: center;
+  height: 65px;
+}
+button {
+  text-shadow: 0.1em 0.1em 0.1em black;
+  box-shadow: 0.1em 0.2em 0.2em black;
+}
+table,
+th,
+td {
+  border: 3.5px solid rgb(44, 16, 0);
+  padding: 15px;
+  padding-bottom: 7px;
+  border-collapse: collapse; /*juntou as colunas*/
+  border-style: ridge;
+}
+
+.flex-blackjack-row-3 {
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  font-size: larger;
+}
+button:hover {
+  margin-bottom: 2px;
+  border-radius: 20px;
+}
+
+/* CSS */

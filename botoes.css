@@ -1,0 +1,178 @@
+/* HIT BUTTON*/
+
+.hit-btn {
+  appearance: button;
+  background-color: #4b0082;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 18%;
+}
+
+.hit-btn:after {
+  background-clip: padding-box;
+  background-color: #7b68ee;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hit-btn:main,
+.hit-btn:focus {
+  user-select: auto;
+}
+
+.hit-btn:hover:not(:disabled) {
+  filter: contrast(4);
+}
+
+.hit-btn:disabled {
+  cursor: auto;
+}
+/*STAND BUTTON*/
+
+.stand-btn {
+  appearance: button;
+  background-color: #ff8c00;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 18%;
+}
+
+.stand-btn:after {
+  background-clip: padding-box;
+  background-color: #ffa500;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.stand-btn:main,
+.stand-btn:focus {
+  user-select: auto;
+}
+
+.stand-btn:hover:not(:disabled) {
+  filter: contrast(2);
+}
+
+.stand-btn:disabled {
+  cursor: auto;
+}
+/*DEAL BUTTON*/
+.deal-btn {
+  appearance: button;
+  background-color: #8b0000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 18%;
+}
+
+.deal-btn:after {
+  background-clip: padding-box;
+  background-color: #dc143c;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.deal-btn:main,
+.deal-btn:focus {
+  user-select: auto;
+}
+
+.deal-btn:hover:not(:disabled) {
+  filter: contrast(9);
+}
+.deal-btn:disabled {
+  cursor: auto;
+}
